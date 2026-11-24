@@ -1,5 +1,5 @@
 # API image: FastAPI + WeasyPrint. No GPU needed here.
-FROM python:3.11-slim
+FROM python:3.15-slim
 
 # WeasyPrint needs Pango for PDF export; FFmpeg reads uploads (in cloud mode the API also runs the jobs).
 RUN apt-get update \
