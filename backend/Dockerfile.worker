@@ -1,5 +1,5 @@
 # GPU worker image: PyTorch + CUDA 12 + cuDNN 9 (what faster-whisper/CTranslate2 4.5 needs).
-FROM pytorch/pytorch:2.5.1-cuda12.4-cudnn9-runtime
+FROM pytorch/pytorch:2.6.0-cuda12.4-cudnn9-runtime
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends ffmpeg libsndfile1 \
