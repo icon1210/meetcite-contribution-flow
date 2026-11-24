@@ -2,15 +2,15 @@
 
 MeetCite is a group project, and each person has an area of responsibility. This page records the work that can currently be verified in the repository while recognising that project contributions can also include research, planning, testing, meetings and other work outside Git.
 
-Last updated: 16 November 2026. Add evidence in the same pull request as each new contribution.
+Last updated: 24 November 2026. Add evidence in the same pull request as each new contribution. GitHub access for the listed accounts was checked on this date; three accounts currently have read access, which does not allow them to push branches or open pull requests.
 
 | Team member | Area of responsibility | Work currently visible in the repository |
 |---|---|---|
 | Olayinka Williams Ajibola (icon1210) | Product direction, system architecture, AI pipeline, interface and UI/UX | Commits on `main`, application and pipeline development, deployment work and project documentation. See the [AI use declaration](AI_USAGE_AND_DECLARATION.md) for a transparent account of the development process. |
-| Oguanya Kenneth Ifeanyi (oguanyak) | Group leadership, database, accounts and data protection | No merged contribution recorded yet. Repository invitation was pending in the last recorded update. |
-| Iloanugo Onyeka Pascal (Pasilo01) | Transcription, speaker identification and C1/C2 evaluation | No merged contribution recorded yet. Repository access was confirmed. |
+| Oguanya Kenneth Ifeanyi (oguanyak) | Group leadership, database, accounts and data protection | No merged contribution recorded yet. GitHub collaborator access is currently read-only. |
+| Iloanugo Onyeka Pascal (Pasilo01) | Transcription, speaker identification and C1/C2 evaluation | No merged contribution recorded yet. GitHub collaborator access is currently read-only. |
 | Emmanuel Chieji (GitHub username to be confirmed) | Media processing, testing, security and deployment | No merged contribution recorded yet. GitHub username and repository invitation are still to be confirmed. |
-| Chinonye Linda Nwanya (lillyv01) | Exports, follow-up tools, usability and user study | No merged contribution recorded yet. Repository access was confirmed. |
+| Chinonye Linda Nwanya (lillyv01) | Exports, follow-up tools, usability and user study | No merged contribution recorded yet. GitHub collaborator access is currently read-only. |
 
 ## How we record contributions
 
@@ -19,3 +19,4 @@ A responsibility describes who is expected to lead an area; it is not, by itself
 Work outside Git—such as report chapters, the ethics application, supervisor meetings, research and testing sessions—also matters. Record it in the relevant project or research documentation rather than presenting it as a code commit.
 
 For the team's workflow, see [TEAM_RESPONSIBILITIES.md](TEAM_RESPONSIBILITIES.md) and [CONTRIBUTING.md](../CONTRIBUTING.md).
+
