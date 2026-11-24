@@ -1,0 +1,31 @@
+name: Bug report
+description: Something does not work as expected
+labels: ["type: bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: Include the page, what you clicked and any error message. No real meeting content or personal data.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What should have happened
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      value: |
+        1.
+        2.
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where
+      options: ["Live site (meetcite.com.ng)", "Local development", "Both"]
+    validations:
+      required: true

@@ -1,0 +1,32 @@
+name: Task or feature
+description: A piece of work with an owner and completion criteria
+labels: ["type: feature"]
+body:
+  - type: input
+    id: owner
+    attributes:
+      label: Owner
+      description: Who will do this? (Also set the assignee.)
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What should change, and why?
+    validations:
+      required: true
+  - type: textarea
+    id: criteria
+    attributes:
+      label: Completion criteria
+      description: A checklist that makes "done" unambiguous.
+      value: |
+        - [ ]
+        - [ ] Tests added or updated
+        - [ ] Documentation updated if needed
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: "Done means merged through a reviewed pull request that says `Closes #<this issue>` and passes CI."

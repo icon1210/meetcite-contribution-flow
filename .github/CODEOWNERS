@@ -1,0 +1,31 @@
+# Who is asked to review changes in each area. See docs/TEAM_RESPONSIBILITIES.md.
+# The last matching line wins. Owners need repository access before GitHub can request them;
+# Kenneth (oguanyak) is added once his invitation is accepted, Emmanuel once his username is confirmed.
+
+*                                   @icon1210
+
+# Transcription, speakers, evaluation (Pascal)
+/backend/app/pipeline/transcribe.py @Pasilo01 @icon1210
+/backend/app/pipeline/cloud_transcribe.py @Pasilo01 @icon1210
+/backend/app/pipeline/diarize.py    @Pasilo01 @icon1210
+/backend/app/pipeline/align.py      @Pasilo01 @icon1210
+/backend/app/pipeline/names.py      @Pasilo01 @icon1210
+/research/                          @Pasilo01 @icon1210
+
+# Exports, follow-up tools, user study (Chinonye)
+/backend/app/export.py              @lillyv01 @icon1210
+/research/user_study/               @lillyv01 @icon1210
+
+# Database, accounts, data protection (Kenneth): uncomment when oguanyak has access
+# /backend/app/models.py            @oguanyak @icon1210
+# /backend/alembic/                 @oguanyak @icon1210
+# /backend/app/security.py          @oguanyak @icon1210
+# /backend/app/routers/auth.py      @oguanyak @icon1210
+
+# Media, testing, deployment (Emmanuel): add his username when confirmed
+# /backend/app/pipeline/preprocess.py
+# /backend/tests/
+# /frontend/e2e/
+# /docker-compose.cloud.yml
+# /deploy/
+# /.github/workflows/
