@@ -16,6 +16,9 @@ tags themselves were created on 12 November 2026. More detail is in
 - Contribution workflow: pull request and issue templates, CODEOWNERS, Dependabot configuration.
 
 ### Changed
+- Clarified that the 0.1.0–0.6.0 release records belong to the original repository; the public contribution-flow
+  repository begins with a ZIP snapshot on 24 November 2026 and does not contain that earlier Git history.
+- Expanded the AI-use declaration to distinguish the original project's development history from the new repository snapshot.
 - `docs/MeetMind_Viva_Guides.pdf`, which contained student ID numbers, removed from the repository and its history
   (13 Nov 2026).
 
@@ -63,3 +66,4 @@ tags themselves were created on 12 November 2026. More detail is in
 
 The code to 0.6.0 was written with Claude Code, under the direction of icon1210. See
 [docs/AI_USAGE_AND_DECLARATION.md](docs/AI_USAGE_AND_DECLARATION.md).
+

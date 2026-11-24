@@ -44,19 +44,20 @@ Claude Code was used as a development assistant across several parts of the proj
 
 AI suggestions were treated as assistance rather than decisions in their own right. Project direction, feature priorities and deployment decisions remained with the people working on the project.
 
-## 4. Evidence of AI assistance
+## 4. Evidence of AI assistance and repository history
 
-The repository contains evidence of AI assistance in its commit history and project documentation.
+The earlier project history is in the original [`icon1210/meetcite`](https://github.com/icon1210/meetcite) repository. The current public `meetcite-contribution-flow` repository was created from a ZIP on 24 November 2026; the ZIP did not include Git history. Its setup commits identify the account that uploaded the files, not the authorship of the earlier application.
 
 | Evidence | What it records |
 |---|---|
-| Commit trailers | Seven of the twelve commits on the reviewed version of `main` include a `Co-Authored-By: Claude Opus 5.5` trailer. |
-| Other early commits | Five further commits were also prepared with Claude Code, although they do not include a co-author trailer. |
+| Original commit trailers | Seven of the twelve commits on the reviewed version of `main` in the original repository include a `Co-Authored-By: Claude Opus 5.5` trailer. |
+| Other early commits | Five further commits in that original history were also prepared with Claude Code, although they do not include a co-author trailer. |
 | Development session record | A timestamped record of instructions and changes from 8 October to 13 November 2026 is retained privately by the repository owner. It contains personal and group information and can be made available to the supervisor if requested. |
-| Initial repository commit | The first commit, `cc4aaca`, added 175 files and 26,539 lines on 13 October 2026. The initial implementation had been prepared before the repository was created. |
+| Initial original-repository commit | The first commit, `cc4aaca`, added 175 files and 26,539 lines on 13 October 2026. The initial implementation had been prepared before that repository was created. |
+| Current public repository | The source ZIP had no Git history. The initial upload is documented as a repository snapshot, not as proof that one person authored the existing application. |
 | Project documentation | The [README](../README.md) and [development log](DEVELOPMENT_LOG.md) also describe the use of AI during development. |
 
-The commit history is not a complete record of every interaction with an AI tool. The written declaration therefore explains the wider development process rather than relying on Git attribution alone.
+The original commit history is not a complete record of every interaction with an AI tool. The written declaration therefore explains the wider development process rather than relying on Git attribution alone. The public repository's snapshot history cannot fill in the missing original Git history.
 
 ## 5. Review and testing
 
@@ -104,6 +105,7 @@ The contribution records distinguish assigned responsibilities from work that ha
 
 Group 8 acknowledges that generative AI, including Claude Code, was used extensively as a development aid during the creation of MeetCite. AI assistance contributed to the preparation and refinement of code, tests, configuration and documentation.
 
-The project was directed and developed under the responsibility of the human project team. The team remains accountable for the requirements, design decisions, review, testing, maintenance and final submission, and will disclose the use of AI in accordance with the University's academic requirements.
+The project was directed and developed under the responsibility of the human project team. The team remains accountable for the requirements, design decisions, review, testing, maintenance and final submission, and will disclose the use of AI in accordance with the University's academic requirements. On 24 November 2026, Codex also assisted at the project owner's request with setting up the public contribution-flow repository and clarifying its version-history documentation from the existing project records. The release dates and authorship claims above were not invented for this page.
 
 AI tools are not members of Group 8 and are not presented as human contributors. This declaration records their role as development tools while recognising the responsibilities of the students who developed and continue to maintain the project.
+
